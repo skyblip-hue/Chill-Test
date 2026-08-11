@@ -1,0 +1,7 @@
+Phát triển weapon ứng dụng thực tiễn:
+
+    Viết tool PS, sử dụng để scan port với multithread
+    Nghiên cứu custom 1 loader opensource với ngôn ngữ bất kỳ (Java/Python/Golang/C/C++/Rust), và rebuild đảm bảo các yêu cầu:
+        Đảm bảo về mặt tính năng và bypass được AV Windows Defender
+        Đảm bảo shellcode này được mã hóa với tên file là config.dat, khi loader load lên sẽ giải mã với key cố định ( nghĩ cách giấu key) , spawn và inject vào process notepad.exe ( không hiện gui ).
+        Sau khi build release, RD cách check các thông tin về môi trường build như đường dẫn, info máy, thông tin debug .... của một file binary => đề xuất phương án clear / tung hỏa mù
